@@ -19,16 +19,16 @@ wget https://pjreddie.com/media/files/yolov3.weights
 ```
 
 * input image: 
-```bash
-python3 object_detection_yolo.py --label=cfg/coco.names --cfg=cfg/yolov3.cfg --model=cfg/yolov3.weights --image=face1.jpg
+```
+python object_detection_yolo.py --label=cfg/coco.names --cfg=cfg/yolov3.cfg --model=cfg/yolov3.weights --image=face1.jpg
 ```
 
 * input video: 
-```bash 
-python3 object_detection_yolo.py --label=cfg/coco.names --cfg=cfg/yolov3-.cfg --model=cfg/yolov3.weights --video=Walk.mp4
+``` 
+python object_detection_yolo.py --label=cfg/coco.names --cfg=cfg/yolov3-.cfg --model=cfg/yolov3.weights --video=Walk.mp4
 ```
 
 * Webcam: 
 ``` 
-bash python3 object_detection_yolo.py --label=cfg/coco.names --cfg=cfg/yolov3.cfg --model=cfg/yolov3.weights
+python object_detection_yolo.py --label=cfg/coco.names --cfg=cfg/yolov3.cfg --model=cfg/yolov3.weights
 ```
